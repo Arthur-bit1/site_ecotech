@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+#corpo{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+#meiodocorpo{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+nav{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex: 1 80px 1;
+    flex-wrap: wrap;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+a li{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    margin: 10px 30px ; 
+}
+
+
+
+#inicio{
+    max-width: 100%;
+}
+#meiodoinicio{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #F8F5F5;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 25px 0 100px 0;
+    flex-wrap: wrap;
+}
+.migue{
+    max-width: 800px;
+}
+.migue h1{
+    font-family: Secular One;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.migue p{
+    font-family: Secular One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.imgdeapoio{
+    display:block;
+    max-width: 400px;
+}
+
+
+
+
+#sobrenos{
+    max-width: 100%;
+}
+#meiosobrenos{
+    margin: 0 auto;
+    max-width: 1360px;
+    margin: 25px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F5F5;
+    border-radius: 20px;
+    flex-wrap: wrap
+}
+#paidoh1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 24px;
+    max-width: 650px;
+}
+#h1sobrenos{
+    width: 262px;
+    margin: 50px 0 0 0px;   
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+#paidoh1 div p{
+    max-width: 630px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 100px;
+}
+#paidoh1 h2{
+    max-width: 600px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+.enfeitar{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.enfeitegrande{
+    width: 136px;
+    height: 10px;
+    left: 70px;
+    top: 416px;
+    background: #6DAC47;
+    border-radius: 20px;
+}
+.enfeite{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #6DAC47;
+}
+#meiosobrenos section img{
+    display: block;
+    max-width: 500px;
+    left: 766px;
+    top: 135px;
+    border-radius: 30px;
+    margin: 50px 50px 50px 0;
+}
+
+
+
+#aplicativo{
+    max-width: 100%;
+}
+#meioapp{
+    margin: 0 auto;
+    max-width: 1360px;
+    margin: 25px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F5F5;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+#h1aplicativo{
+    width: 262px;
+    margin: 50px 0 0 0px;   
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+#parte1app{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 24px;
+    gap: 30px;
+    max-width: 650px;
+}
+#parte1app p{
+    max-width: 651px;
+    height: 336px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+#aplicativo section img{
+    display: block;
+    max-width: 600px;
+    left: 766px;
+    top: 135px;
+    border-radius: 30px;
+    margin: 40px 40px 40px 0;
+}
+#curiosidades{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #F8F5F5;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 25px 0 100px 0;
+    align-items: center;
+}
+#parteimp{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    max-width: 1360px;
+    gap: 30px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.bloc{
+    max-width: 380px;
+    background: #9CEBA0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+#textoapoio{
+    max-width: 1100px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    gap: 30px;
+}
+#textoapoio ul{
+    display: block;
+    margin: 40px;
+}
+#textoapoio ul li{
+    list-style-type: disc;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+.bloc div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+#textocct{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+
+
+#facaparte{
+    max-width: 100%;
+}
+#meiofacaparte{
+    margin: 0 auto;
+    max-width: 1360px;
+    margin: 25px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F5F5;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+#h1facaparte{
+    max-width: 300px;
+    margin: 50px 0 0 0px;   
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+#parte1fp{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: 24px;
+    gap: 30px;
+}
+#parte1fp p{
+    max-width: 600px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+
+
+}
+#parte1fp img{
+    display: block;
+    width: 370px;
+}
+#parte2fp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 24px;
+    gap: 30px;
+}
+#parte2fp div{
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    gap: 30px;
+}
+#parte2fp h2{
+    max-width: 500px;
+    background: #6DAC47;
+    border-radius: 25px 25px 0px 0px;
+    padding: 30px 0 25px 35px;
+
+}
+#parte2fp div a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    gap: 10px;
+}
+#parte2fp div a img{
+    width: 70px;
+}
+#parte2fp div a label{
+    max-width: 463px;
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+footer img{
+    flex: 1 300px 1;
+}
