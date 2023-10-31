@@ -1,0 +1,58 @@
+
+
+@media (min-width:600px) and (max-width: 1250px) {
+    header{
+    flex-direction: column;
+    align-items: center;
+}
+#meiofacaparte{
+    flex-direction: column;
+    align-items: center;
+}
+#meiodoinicio{
+    flex-direction: column;
+    align-items: center;
+    }
+#meiosobrenos{
+    flex-direction: column;
+    align-items: center;
+    }
+#meioapp{
+    flex-direction: column;
+    align-items: center;
+    }
+/*curiosidades*/
+#parteimp{
+    align-items: center;
+    }
+#meiofacaparte{
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+@media (min-width: 300px)and(max-width: 600px){
+    #meiodoinicio{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        }
+    #meiosobrenos{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        }
+    #meioapp{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        }
+    #parteimp{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        }
+        a li{
+            margin: 5px;
+        }
+}

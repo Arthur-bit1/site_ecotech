@@ -11,6 +11,10 @@
     list-style-type: none;
     padding: 0;
 }
+section{
+    max-width: 1360px;
+    margin: 0 auto;
+}
 #corpo{
     width: 100%;
     background-color: white;
@@ -21,8 +25,9 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: cente;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -53,65 +58,7 @@ a li{
     letter-spacing: 0em;
     text-align: left;
     display: inline-block;
-    margin: 10px 30px ;
-}
-@media (max-width: 1400px){
-    #meiofacaparte{
-        flex-wrap: wrap;
-        }
-    }
- /* media */
-@media (min-width:600px) and (max-width: 1250px) {
-    header{
-    flex-direction: column;
-    align-items: center;
-}
-#meiodoinicio{
-    flex-direction: column;
-    align-items: center;
-    }
-#meiosobrenos{
-    flex-direction: column;
-    align-items: center;
-    }
-#meioapp{
-    flex-direction: column;
-    align-items: center;
-    }
-#parteimp{
-    flex-direction: column;
-    align-items: center;
-    }
-#meiofacaparte{
-    flex-direction: column;
-    align-items: center;
-    }
-}
-
-@media (min-width: 300px)and(max-width: 600px){
-    #meiodoinicio{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        }
-    #meiosobrenos{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        }
-    #meioapp{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        }
-    #parteimp{
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        }
-        a li{
-            margin: 5px;
-        }
+    margin: 10px 10px ;
 }
 #inicio{
     max-width: 100%;
@@ -124,7 +71,7 @@ a li{
     align-items: center;
     padding: 20px;
     border-radius: 20px;
-    margin: 25px 0 100px 0;
+    margin: 0 10px 100px 10px;
 }
 .migue{
 }
@@ -135,7 +82,6 @@ a li{
     line-height: 102px;
     letter-spacing: 0em;
     text-align: left;
-    width: 100%;
 }
 .migue p{
     font-family: 'Secular';
@@ -151,12 +97,12 @@ a li{
 }
 
 #sobrenos{
-    max-width: 100%;
+    width: 100%;
 }
 #meiosobrenos{
     margin: 0 auto;
     max-width: 1360px;
-    margin: 25px 0 100px 0;
+    margin: 0 10px 100px 10px;
     display: flex;
     justify-content: space-between;
     background-color: #F8F5F5;
@@ -165,14 +111,14 @@ a li{
 }
 #paidoh1{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-direction: column;
     margin: 24px;
     gap: 10px;
 }
 #h1sobrenos{
     width: 262px;
-    margin: 50px 0 0 0px;   
+    margin: 50px 0 0 0;   
     font-family: 'Secular';
     font-style: normal;
     font-weight: 400;
@@ -215,8 +161,6 @@ a li{
 #meiosobrenos section img{
     display: block;
     max-width: 500px;
-    left: 766px;
-    top: 135px;
     border-radius: 30px;
     margin: 20px;
 }
@@ -229,7 +173,7 @@ a li{
 #meioapp{
     margin: 0 auto;
     max-width: 1360px;
-    margin: 25px 0 100px 0;
+    margin: 0 10px 100px 10px;
     display: flex;
     justify-content: space-between;
     background-color: #F8F5F5;
@@ -264,35 +208,35 @@ a li{
     border-radius: 30px;
     margin: 40px 40px 40px 0;
 }
+
+
 #curiosidades{
     display: flex;
     flex-direction: column;
-    gap: 30px;
     background-color: #F8F5F5;
-    margin: 0 auto;
-    max-width: 100%;
-    border-radius: 20px;
-    margin: 25px 0 100px 0;
+    width: 98.5%;
+    margin-bottom: 100px;
     align-items: center;
+    border-radius: 20px;
+    justify-content: center;
 }
 #parteimp{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    max-width: 1360px;
-    gap: 30px;
-    margin: 20px;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
 }
 .bloc{
-    width: 100%;
-    max-width: 380px;
-    background: #9CEBA0;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    width: 350px;
+    background: #9CEBA0;
+    border-radius: 30px;
     gap: 20px;
     padding: 15px;
+    margin: 20px;
 }
 #textoapoio{
     max-width: 1100px;
@@ -318,13 +262,11 @@ a li{
 }
 
 .bloc div img{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     border-radius: 100%;
-    border: 1px solid black;
 }
 #textocct{
-    font-family: 'Aleo';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -340,7 +282,7 @@ a li{
 #meiofacaparte{
     margin: 0 auto;
     max-width: 1360px;
-    margin: 25px 0 100px 0;
+    margin: 0 10px 100px 10px;
     display: flex;
     background-color: #F8F5F5;
     border-radius: 20px;
@@ -368,10 +310,11 @@ a li{
     line-height: 38px;
     color: #000000;
 }
-#pvcvsd{
+#pessoas{
     display: block;
     width: 100%;
-    max-width: 450px;
+    margin: 10px;
+    max-width: 480px;
 }
 #parte2fp{
     display: flex;
@@ -412,7 +355,6 @@ a li{
     font-weight: 400;
     font-size: 25px;
     line-height: 36px;
-
     color: #000000;
 }
 
