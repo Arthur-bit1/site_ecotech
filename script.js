@@ -1,5 +1,4 @@
 var result = document.querySelector("div#textoapoio")
-var bloco1 = document.querySelector("div#coleta")
     function comoDescartar(){
         result.innerHTML = '<p id="textocct">Deve-se separar o lixo seco do lixo úmido, lavar as embalagens-longa vida, latas, garrafas e frascos de vidro e plástico (facilita a reciclagem para os coletores).</p><ul><li>Quais materiais reciclar?Recicla-se materiais de vidro, plástico, papel,papelão, metal, madeira e orgânicos.</li><li>Quais materiais NÃO reciclar?Não se deve reciclar papéis plastificados, papéis sanitários (papel higiênico), etiquetas adesivas, papéis engordurados, papel carbono, papéis parafinados, fotografias, papel celofane, bitucas de cigarros, guardanapos e isopor.</li><li>Quais as embalagens mais poluentes?As bandejas e sacolas de frutas/mercado, embalagens de bolos e doces, objetos embalados em plástico, filme plástico, garrafas plásticas.</li></ul>'
     }
