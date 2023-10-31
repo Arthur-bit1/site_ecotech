@@ -7,5 +7,5 @@ var img = document.querySelector("img#imgcct")
         result.innerHTML = '<p id="textocct">A coleta seletiva é uma alternativa para a reutilização de materiais que poderiam ser descartados de forma incorreta e assim acarretar diversos problemas para o meio ambiente e para nossa vida. Com o correto direcionamento desses materiais, esse sistema fica responsável por separar e classificá-los em reutilizáveis ou não. </p><p id="textocct">pós essa classificação e seleção, entra a reciclagem, que é uma solução para reaproveitar todos esses produtos que não serviriam mais para nada, dando-os assim uma nova funcionalidade. Por meio desses sistemas é possível diminuir o fluxo e sobrecarga em depósitos de resíduos, como lixões ou aterros sanitários.</p><p id="textocct">A coleta seletiva é uma importante aliada em nossas vidas pois evita a poluição do solo, das águas, e do ar, muitas vezes atingidos pelo mau descarte desses materiais. A intenção de separar os resíduos e reciclá-los é essencial para o desenvolvimento sustentável da Terra, podendo assim, prolongar a nossa estadia nela.</p>'
     }
     function tempodedec(){
-        img.src = 'imagens/pageverde'
+        img.src = 'imagens/pageverde.png'
     }
